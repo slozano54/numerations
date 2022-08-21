@@ -1,0 +1,115 @@
+\documentclass[french,12pt]{article}
+
+% ============================================================================================
+% ======= Configurations 
+% ============================================================================================
+
+% ======= Ajout de paquets
+\input{./0paquets.tex}
+
+% ======= Ajout de commandes
+\input{./0commandes.tex}
+
+% ======= Pour inclure de façon sélective
+\includeonly{%
+	./numerationEgyptienne/groupe1.tex,
+	./numerationEgyptienne/groupe2.tex,
+	./numerationRomaine/groupe1.tex,
+	./numerationRomaine/groupe2.tex,
+	./numerationShadok/groupe1.tex,
+	./numerationShadok/groupe2.tex,
+	./numerationInca/groupe1.tex,
+	./numerationInca/groupe2.tex,
+	./numerationChinoise/groupe1.tex,
+	./numerationChinoise/groupe2.tex,
+	./numerationBabylonienne/groupe1.tex,
+	./numerationBabylonienne/groupe2.tex,
+	./numerationBinaire/groupe1.tex,
+	./numerationBinaire/groupe2.tex,
+	./numerationTriozon/groupe1.tex,
+	./numerationTriozon/groupe2.tex,
+	./numerationDni/groupe1.tex,
+	./numerationDni/groupe2.tex,
+}
+% ============================================================================================
+% ======= Début du document
+% ============================================================================================
+\begin{document}
+    \input{./incFirstCover.tex}            				% On inclut la 1ere de couverture
+
+    \tableofcontents									% Sommaire
+	
+% ======= On inclut la numération Egyptienne
+	\def\currentpath{./numerationEgyptienne}            % On définit le répertoire courant
+	\clearpage
+	\input{\currentpath/debutCommun.tex}	
+	\include{\currentpath/groupe1.tex}
+	\include{\currentpath/groupe2.tex}
+	\input{\currentpath/finCommune.tex}
+
+% ======= On inclut la numération Romaine
+	\def\currentpath{./numerationRomaine}            	% On définit le répertoire courant
+	\clearpage
+	\input{\currentpath/debutCommun.tex}	
+	\include{\currentpath/groupe1.tex}
+	\include{\currentpath/groupe2.tex}
+	\input{\currentpath/finCommune.tex}
+
+% ======= On inclut la numération Shadok
+	\def\currentpath{./numerationShadok}            	% On définit le répertoire courant
+	\clearpage
+	\input{\currentpath/debutCommun.tex}	
+	\include{\currentpath/groupe1.tex}
+	\include{\currentpath/groupe2.tex}
+	\input{\currentpath/finCommune.tex}
+
+% ======= On inclut la numération Inca
+	\def\currentpath{./numerationInca}            		% On définit le répertoire courant
+	\clearpage
+	\input{\currentpath/debutCommun.tex}	
+	\include{\currentpath/groupe1.tex}
+	\include{\currentpath/groupe2.tex}
+	\input{\currentpath/finCommune.tex}
+
+% ======= On inclut la numération Chinoise
+	\def\currentpath{./numerationChinoise}            	% On définit le répertoire courant
+	\clearpage
+	\input{\currentpath/debutCommun.tex}	
+	\include{\currentpath/groupe1.tex}
+	\include{\currentpath/groupe2.tex}
+	\input{\currentpath/finCommune.tex}
+
+% ======= On inclut la numération Babylonienne
+	\def\currentpath{./numerationBabylonienne}           % On définit le répertoire courant
+	\clearpage
+	\input{\currentpath/debutCommun.tex}	
+	\include{\currentpath/groupe1.tex}
+	\include{\currentpath/groupe2.tex}
+	\input{\currentpath/finCommune.tex}
+
+% ======= On inclut la numération Binaire
+	\def\currentpath{./numerationBinaire}            	% On définit le répertoire courant
+	\clearpage
+	\input{\currentpath/debutCommun.tex}	
+	\include{\currentpath/groupe1.tex}
+	\include{\currentpath/groupe2.tex}
+	\input{\currentpath/finCommune.tex}
+
+% ======= On inclut la numération Triozon
+	\def\currentpath{./numerationTriozon}            	% On définit le répertoire courant
+	\clearpage
+	\input{\currentpath/debutCommun.tex}	
+	\include{\currentpath/groupe1.tex}
+	\include{\currentpath/groupe2.tex}
+	\input{\currentpath/finCommune.tex}
+
+% ======= On inclut la numération D'ni
+	\def\currentpath{./numerationDni}            		% On définit le répertoire courant
+	\clearpage
+	\input{\currentpath/debutCommun.tex}	
+	\include{\currentpath/groupe1.tex}
+	\include{\currentpath/groupe2.tex}
+	\input{\currentpath/finCommune.tex}
+
+    \input{./incBackCover.tex}          				% On inclut la 4e de couverture
+\end{document}
