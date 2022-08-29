@@ -1,0 +1,333 @@
+\documentclass[12pt,a4paper]{article}
+
+% Packages Ecriture
+\usepackage[utf8]{inputenc} % Caractères accentués
+\usepackage[french]{babel} % Traduction française
+\usepackage[T1]{fontenc} % Codage des caractères
+\usepackage{lmodern} % Polices vectorielles
+\usepackage{dashundergaps}
+
+% Packages Mise en page
+\usepackage[margin=2cm]{geometry} % Marges
+\usepackage{sectsty} % Définition des sections
+\usepackage{titletoc} % Gestion des sections, titres ...
+\usepackage{titlesec}
+\usepackage{fancyhdr} %gestion des ET et PDP
+%\usepackage{lscape}
+
+% Packages mathématiques
+\usepackage{amsmath} % Equations
+\usepackage{amssymb} % Symboles
+\usepackage{amsfonts} % Symbloes
+\usepackage{hieroglf}
+
+% Packages Tableaux
+\usepackage{tabularx} % Tableaux
+\usepackage{multirow} %Gestion des lignes
+\usepackage{multicol} % Gestion des colonnes
+\usepackage{array} %Tableaux maths
+\usepackage{arydshln} % Lignes en pointillés
+\usepackage{fancybox} % Boites
+
+% Packages Figures et graphiques
+\usepackage{graphics} % Inclusion de figures
+\usepackage{graphicx} % Inclusion de figures
+\usepackage{pstricks,pstricks-add,pst-plot,pst-eucl} % Graphiques
+\usepackage[pstricks]{bclogo} % Logo
+\usepackage{epsfig} % Inclusion de figures eps
+\usepackage{nccrules} % pointillés
+           
+% Tableaux
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1cm}}
+\renewcommand{\arraystretch}{2.5}
+\setlength{\parindent}{0pt}
+ 
+\graphicspath{{../Images/}}
+
+\begin{document}
+\thispagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+   \bf LA NUMÉRATION DE L'ÉGYPTE ANTIQUE \\ [1cm]
+\end{center}
+   
+\noindent L'Égypte antique est une ancienne civilisation qui a vécu un peu plus de $3000$ ans entre $3150$ av. J.-C. et $30$ av. J.-C. Elle s'est développée le long du Nil.
+
+\begin{center}
+   \includegraphics[width=13cm]{frise_historique}
+\end{center}
+
+1. Les Égyptiens maitrisent l'écriture, ils utilisent des symboles qui représentent des choses réelles ou non. Comment s'appellent les signes qu'ils utilisent pour écrire ? \\ [2mm]
+   \mbox{}\dashrulefill{4 3}{0.3} \\ [3mm]
+   
+\begin{minipage}{8cm}
+   \includegraphics[width=7.8cm]{rosette}
+\end{minipage}
+\qquad
+\begin{minipage}{8cm}
+   2. En 1821, Jean François Champollion réussit à décrypter les caractères égyptiens. \\
+   Comment a-t-il pu réussir cet exploit ? Vous pouvez vous aider de l'image ci-contre. \\ [3mm]
+   \mbox{}\dashrulefill{4 3}{0.3} \\ [3mm]
+   \mbox{}\dashrulefill{4 3}{0.3} \\ [3mm]
+   \mbox{}\dashrulefill{4 3}{0.3} \\ [3mm]
+   \mbox{}\dashrulefill{4 3}{0.3}
+\end{minipage}
+
+\bigskip
+
+\begin{minipage}{11.5cm}
+   3. Dans l'Égypte antique, les scribes sont les seules personnes ayant reçu une éducation leur permettant de lire, écrire et compter, ils travaillent pour les pharaons. Ce sont eux qui écrivent les textes de loi ou qui effectuent le travail de comptabilité. \\
+   Au tableau est affiché un alphabet simplifié, écrivez votre nom en égyptien dans le cartouche ci-dessous.
+   \begin{center}
+   \begin{pspicture}(0,-0.25)(12,1.75)
+      \psarc(1,1){1}{90}{-90}
+      \psarc(10,1){1}{-90}{90}
+      \psline(1,0)(10,0)
+      \psline(1,2)(10,2)
+      \psline(11.2,-0.08)(11.2,2.08)
+      \psarc(14,1){3}{159}{201}
+      \psline(11.01,0.7)(11.2,0.7)
+      \psline(11,0.8)(11.2,0.8)
+      \psline(11,0.9)(11.2,0.9)
+      \psline(11,1)(11.2,1)
+      \psline(11,1.1)(11.2,1.1)
+      \psline(11,1.2)(11.2,1.2)
+      \psline(11.01,1.3)(11.2,1.3)
+   \end{pspicture}
+   \end{center}
+\end{minipage}   
+\qquad
+\begin{minipage}{5cm}
+   \includegraphics[width=4.5cm]{scribe}
+\end{minipage}  
+
+\bigskip
+
+   4. Complètez la phrase suivante avec le vocabulaire situé en dessous : \\ [2mm]
+   {\it \og Le scribe écrit avec un \gap*[-]{grand-espace} sur un \gap*[-]{grand-espace} ou sur une feuille de \gap*[-]{grand-espace}, plus onéreux, pour des textes officiels. L'encre utilisée est généralement noire (fabriquée avec du \gap*[-]{grand-espace} écrasé) ou rouge (composée d'\gap*[-]{grand-espace} écrasée) \fg.} \\ [-3mm]
+   {\small
+   \begin{itemize}
+      \item {\bf Calame} : roseau taillé en pointe utilisé pour l'écriture.
+      \item {\bf Charbon} : roche combustible riche en carbone et de couleur noire.
+      \item {\bf Ocre rouge} : terre colorée par des oxydes de fer rouges.
+      \item {\bf Ostracon} : éclat de calcaire ou fragment de poterie.
+      \item {\bf Papyrus} : support obtenu par superposition de fines lamelles de Cyperus papyrus.
+   \end{itemize}}
+
+\pagebreak
+\thispagestyle{empty}
+   
+   5. Dans la numération égyptienne, voilà comment on écrit certains nombres indo-arabes :
+\begin{center} 
+   \renewcommand*\tabularxcolumn[1]{>{\centering\arraybackslash}m{#1}}   
+   \begin{tabular}{|c|c|c|c|c|}
+      \hline
+      18 & 70 & 235 & 3\,018 & 1\,230\,012 \\
+      \hline
+      \Large\textpmhg{\Hten\Hone\Hone\Hone\Hone\Hone\Hone\Hone\Hone}
+      &
+      \Large\textpmhg{\Hten\Hten\Hten\Hten\Hten\Hten\Hten}
+      & 
+      \Large\textpmhg{\Hhundred\Hhundred\Hten\Hten\Hten\Hone\Hone\Hone\Hone\Hone} & \Large\textpmhg{\Hthousand\Hthousand\Hthousand\Hten\Hone\Hone\Hone\Hone\Hone\Hone\Hone\Hone}
+      &
+      \Large\textpmhg{\Hmillion\HCthousand\HCthousand\HXthousand\HXthousand\HXthousand\Hten\Hone\Hone} \\
+      \hline
+   \end{tabular}
+\end{center}
+À la manière de Champollion, pourriez-vous retrouver la valeur de ces symboles égyptiens ?  
+   \begin{center}
+      \renewcommand*\tabularxcolumn[1]{>{\centering\arraybackslash}m{#1}}
+      \begin{tabular}{|C{1.8}|C{1.8}|C{1.8}|C{1.8}|C{1.8}|C{1.8}|C{1.8}|}
+         \hline
+         \Large\textpmhg{\Hone}
+         &
+         \Large\textpmhg{\Hten}
+         &
+         \Large\textpmhg{\Hhundred}
+         &
+         \Large\textpmhg{\Hthousand}
+         &
+         \Large\textpmhg{\HXthousand}
+         &
+         \Large\textpmhg{\HCthousand}
+         &
+         \Large\textpmhg{\Hmillion} \\
+         \hline
+         & & & & & & \\
+        \hline
+      \end{tabular}
+   \end{center}
+
+\bigskip
+
+   5. Écrivez les nombres égyptiens suivants en nombres indo-arabes : \\ [2mm]
+   {\Large\textpmhg{\HXthousand\Hthousand\Hthousand\Hten\Hten\Hten\Hten\Hten\Hten}} : \dashrulefill{4 3}{0.3} \\ [5mm]
+   {\Large\textpmhg{\HCthousand\HXthousand\HXthousand\HXthousand\Hthousand\Hthousand\Hthousand\Hhundred\Hhundred\Hhundred\Hten\Hten\Hten\Hten\Hone\Hone\Hone\Hone\Hone\Hone\Hone\Hone}} : \dashrulefill{4 3}{0.3} \\  [5mm]
+   {\Large\textpmhg{\Hmillion\Hmillion\Hmillion\HCthousand\Hone\Hone}} : \dashrulefill{4 3}{0.3} \\  [3mm]
+
+   6. Écrivez les nombres indo-arabes suivants en nombres égyptiens : \\ [5mm]
+   8\,032 : \dashrulefill{4 3}{0.3} \\ [5mm]
+   3\,000\,100 : \dashrulefill{4 3}{0.3} \\ [3mm]
+   
+   7. Quel nombre présent dans notre numération écrite n'existe pas dans la numération égyptienne ? Pourquoi ? \\ [3mm]
+   \mbox{}\dashrulefill{4 3}{0.3} \\
+   
+\medskip
+
+   {\bf Bonus pour les plus rapides !!!} \\
+   Seriez-vous capable de faire ces opérations en égyptien sans utiliser nos chiffres ?
+   \smallskip
+   \begin{center}
+      \begin{tabular}{crp{2cm}cr}
+         & & & & \\
+         &
+      \Large\textpmhg{\Hmillion\Hhundred\Hhundred\Hhundred\Hten\Hone\Hone\Hone\Hone\Hone} & & &    \Large\textpmhg{\HXthousand\Hhundred\Hhundred\Hhundred\Hten\Hone\Hone\Hone\Hone\Hone}  \\
+         $+$ & \Large\textpmhg{\HCthousand\Hthousand\Hthousand\Hhundred\Hten\Hten\Hone\Hone\Hone\Hone\Hone\Hone\Hone} & & $-$ & \Large\textpmhg{\Hhundred\Hhundred\Hten\Hten\Hone\Hone\Hone\Hone}  \\
+         \cline{2-2} \cline{5-5}
+      \end{tabular}
+   \end{center}
+
+\pagebreak
+\thispagestyle{empty}
+
+\begin{center}
+   \bf LA NUMÉRATION DE L'ÉGYPTE ANTIQUE \\ [1cm]
+\end{center}
+   
+\noindent L'Égypte antique est une ancienne civilisation qui a vécu un peu plus de $3000$ ans entre $3150$ av. J.-C. et $30$ av. J.-C. Elle s'est développée le long du Nil.
+
+\begin{center}
+   \includegraphics[width=13cm]{frise_historique}
+\end{center}
+
+1. Les Égyptiens maitrisent l'écriture, ils utilisent des symboles qui représentent des choses réelles ou non. Comment s'appellent les signes qu'ils utilisent pour écrire ? \\ [2mm]
+   {\red Les signes s'appellent les hiéroglyphes.} \\ [3mm]
+   
+\begin{minipage}{8cm}
+   \includegraphics[width=7.8cm]{rosette}
+\end{minipage}
+\qquad
+\begin{minipage}{8cm}
+   2. En 1821, Jean François Champollion réussit à décrypter les caractères égyptiens. \\
+   Comment a-t-il pu réussir cet exploit ? Vous pouvez vous aider de l'image ci-contre. \\ [3mm]
+   {\red La pierre de Rosette est un fragment de stèle gravée de l'Égypte antique comportant trois versions d'un même texte. C'est en comparant ces écritures que Champollion a réussi à transcrire les hiéroglyphes.}
+\end{minipage}
+
+\bigskip
+
+\begin{minipage}{11.5cm}
+   3. Dans l'Égypte antique, les scribes sont les seules personnes ayant reçu une éducation leur permettant de lire, écrire et compter, ils travaillent pour les pharaons. Ce sont eux qui écrivent les textes de loi ou qui effectuent le travail de comptabilité. \\
+   Au tableau est affiché un alphabet simplifié, écrivez votre nom en égyptien dans le cartouche ci-dessous.
+   \begin{center}
+   \begin{pspicture}(0,-0.25)(12,1.75)
+      \psarc(1,1){1}{90}{-90}
+      \psarc(10,1){1}{-90}{90}
+      \psline(1,0)(10,0)
+      \psline(1,2)(10,2)
+      \psline(11.2,-0.08)(11.2,2.08)
+      \psarc(14,1){3}{159}{201}
+      \psline(11.01,0.7)(11.2,0.7)
+      \psline(11,0.8)(11.2,0.8)
+      \psline(11,0.9)(11.2,0.9)
+      \psline(11,1)(11.2,1)
+      \psline(11,1.1)(11.2,1.1)
+      \psline(11,1.2)(11.2,1.2)
+      \psline(11.01,1.3)(11.2,1.3)
+   \end{pspicture}
+   \end{center}
+\end{minipage}   
+\qquad
+\begin{minipage}{5cm}
+   \includegraphics[width=4.5cm]{scribe}
+\end{minipage}  
+
+\bigskip
+
+   4. Complètez la phrase suivante avec le vocabulaire situé en dessous : \\ [2mm]
+   {\it \og Le scribe écrit avec un {\red calame} sur un {\red ostracon} ou sur une feuille de {\red papyrus}, plus onéreux, pour des textes officiels. L'encre utilisée est généralement noire (fabriquée avec du {\red charbon } écrasé) ou rouge (composée d'{\red ocre rouge} écrasée) \fg.} \\ [-3mm]
+   {\small
+   \begin{itemize}
+      \item {\bf Calame} : roseau taillé en pointe utilisé pour l'écriture.
+      \item {\bf Charbon} : roche combustible riche en carbone et de couleur noire.
+      \item {\bf Ocre rouge} : terre colorée par des oxydes de fer rouges.
+      \item {\bf Ostracon} : éclat de calcaire ou fragment de poterie.
+      \item {\bf Papyrus} : support obtenu par superposition de fines lamelles de Cyperus papyrus.
+   \end{itemize}}
+
+\pagebreak
+\thispagestyle{empty}
+   
+   5. Dans la numération égyptienne, voilà comment on écrit certains nombres indo-arabes :
+\begin{center} 
+   \renewcommand*\tabularxcolumn[1]{>{\centering\arraybackslash}m{#1}}   
+   \begin{tabular}{|c|c|c|c|c|}
+      \hline
+      18 & 70 & 235 & 3\,018 & 1\,230\,012 \\
+      \hline
+      \Large\textpmhg{\Hten\Hone\Hone\Hone\Hone\Hone\Hone\Hone\Hone}
+      &
+      \Large\textpmhg{\Hten\Hten\Hten\Hten\Hten\Hten\Hten}
+      & 
+      \Large\textpmhg{\Hhundred\Hhundred\Hten\Hten\Hten\Hone\Hone\Hone\Hone\Hone} & \Large\textpmhg{\Hthousand\Hthousand\Hthousand\Hten\Hone\Hone\Hone\Hone\Hone\Hone\Hone\Hone}
+      &
+      \Large\textpmhg{\Hmillion\HCthousand\HCthousand\HXthousand\HXthousand\HXthousand\Hten\Hone\Hone} \\
+      \hline
+   \end{tabular}
+\end{center}
+À la manière de Champollion, pourriez-vous retrouver la valeur de ces symboles égyptiens ?  
+   \begin{center}
+      \renewcommand*\tabularxcolumn[1]{>{\centering\arraybackslash}m{#1}}
+      \begin{tabular}{|C{1.8}|C{1.8}|C{1.8}|C{1.8}|C{1.8}|C{1.8}|C{1.8}|}
+         \hline
+         \Large\textpmhg{\Hone}
+         &
+         \Large\textpmhg{\Hten}
+         &
+         \Large\textpmhg{\Hhundred}
+         &
+         \Large\textpmhg{\Hthousand}
+         &
+         \Large\textpmhg{\HXthousand}
+         &
+         \Large\textpmhg{\HCthousand}
+         &
+         \Large\textpmhg{\Hmillion} \\
+         \hline
+         \mbox{\red 1} & \mbox{\red 10} & \mbox{\red 100} & \mbox{\red 1\,000} & \mbox{\red 10\,000} & \mbox{\red 100\,000} & \mbox{\red 1\,000\,000} \\
+        \hline
+      \end{tabular}
+   \end{center}
+
+\bigskip
+
+   5. Écrivez les nombres égyptiens suivants en nombres indo-arabes : \\ [2mm]
+   {\Large\textpmhg{\HXthousand\Hthousand\Hthousand\Hten\Hten\Hten\Hten\Hten\Hten}} : {\red 12\,060}  \\ [5mm]
+   {\Large\textpmhg{\HCthousand\HXthousand\HXthousand\HXthousand\Hthousand\Hthousand\Hthousand\Hhundred\Hhundred\Hhundred\Hten\Hten\Hten\Hten\Hone\Hone\Hone\Hone\Hone\Hone\Hone\Hone}} : {\red 133\,348} \\  [5mm]
+   {\Large\textpmhg{\Hmillion\Hmillion\Hmillion\HCthousand\Hone\Hone}} : {\red 3\,100\,002} \\  [3mm]
+
+   6. Écrivez les nombres indo-arabes suivants en nombres égyptiens : \\ [3mm]
+   8\,032 : {\red\Large\textpmhg{\Hthousand\Hthousand\Hthousand\Hthousand\Hthousand\Hthousand\Hthousand\Hthousand\Hten\Hten\Hten\Hone\Hone}} \\ [5mm]
+   3\,000\,100 : {\red\Large\textpmhg{\Hmillion\Hmillion\Hmillion\Hhundred}} \\ [3mm]
+   
+   7. Quel nombre présent dans notre numération écrite n'existe pas dans la numération égyptienne ? Pourquoi ? \\ [3mm]
+   {\red Le 0 n'existe pas, il est inutile puisqu'il s'agit d'un système additif.} \\
+   
+\medskip
+
+   {\bf Bonus pour les plus rapides !!!} \\
+   Seriez-vous capable de faire ces opérations en égyptien sans utiliser nos chiffres ? \\
+   \begin{center}
+      \begin{tabular}{crp{2cm}cr}
+         &
+      \Large\textpmhg{\Hmillion\Hhundred\Hhundred\Hhundred\Hten\Hone\Hone\Hone\Hone\Hone} & & &    \Large\textpmhg{\HXthousand\Hhundred\Hhundred\Hhundred\Hten\Hone\Hone\Hone\Hone\Hone}  \\
+         $+$ & \Large\textpmhg{\HCthousand\Hthousand\Hthousand\Hhundred\Hten\Hten\Hone\Hone\Hone\Hone\Hone\Hone\Hone} & & $-$ & \Large\textpmhg{\Hhundred\Hhundred\Hten\Hten\Hone\Hone\Hone\Hone}  \\
+         \cline{2-2} \cline{5-5}
+          & \red\Large\textpmhg{\Hmillion\HCthousand\Hthousand\Hthousand\Hhundred\Hhundred\Hhundred\Hhundred\Hten\Hten\Hten\Hten\Hone\Hone} & & & \red\Large\textpmhg{\HXthousand\Hten\Hten\Hten\Hten\Hten\Hten\Hten\Hten\Hten\Hone} \\
+      \end{tabular}
+   \end{center}
+
+
+\end{document}
+
